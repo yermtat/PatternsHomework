@@ -1,10 +1,11 @@
 ﻿
 using homework02_FactoryMethod.Entities.Classes;
 using homework02_FactoryMethod.Factories.Classes;
+using homework02_FactoryMethod.Factories.Interfaces;
 
-var sedanFactory = new SedanFactory();
-var suvFactory = new SUVFactory();
-var truckFactory = new TruckFactory();
+IAutomobileFactory sedanFactory = new SedanFactory();
+IAutomobileFactory suvFactory = new SUVFactory();
+IAutomobileFactory truckFactory = new TruckFactory();
 
 Sedan sedan = sedanFactory.CreateAutomobile() as Sedan;
 Console.WriteLine(sedan.GetInfo() + "\n");

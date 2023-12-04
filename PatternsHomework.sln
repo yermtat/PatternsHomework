@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework01_builder", "homework01_builder\homework01_builder.csproj", "{70461AD2-6D2B-4B0A-8ABB-B1793AC9FEDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework01_builder", "homework01_builder\homework01_builder.csproj", "{70461AD2-6D2B-4B0A-8ABB-B1793AC9FEDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework02_FactoryMethod", "homework02_FactoryMethod\homework02_FactoryMethod.csproj", "{59F3F6C8-B21D-410B-81A2-25D87D520D99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework02_FactoryMethod", "homework02_FactoryMethod\homework02_FactoryMethod.csproj", "{59F3F6C8-B21D-410B-81A2-25D87D520D99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework03_AbstractFactory", "homework03_AbstractFactory\homework03_AbstractFactory.csproj", "{B1A58F9F-B4BC-4BC8-8D3E-316F165FDC95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{59F3F6C8-B21D-410B-81A2-25D87D520D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59F3F6C8-B21D-410B-81A2-25D87D520D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59F3F6C8-B21D-410B-81A2-25D87D520D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1A58F9F-B4BC-4BC8-8D3E-316F165FDC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1A58F9F-B4BC-4BC8-8D3E-316F165FDC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1A58F9F-B4BC-4BC8-8D3E-316F165FDC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1A58F9F-B4BC-4BC8-8D3E-316F165FDC95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
